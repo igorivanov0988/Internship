@@ -13,8 +13,9 @@ import './styles.css';
 class UserSettings extends Component {
 
     Log_Out = () => {
+        this.props.Log_Out();
         this.props.history.push("/Login");
-        console.log(this.props)
+
     }
 
     render() {
