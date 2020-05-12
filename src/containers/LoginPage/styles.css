@@ -1,0 +1,80 @@
+
+.sing_up{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-top: 50px;
+    cursor:pointer;
+}
+
+.headerlink {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 150px;
+ }
+
+.log {
+    margin-right: 185px;
+}
+
+.email_password {
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-radius: 4px;
+    outline: none;
+    width: 255px;
+    background-color: #F5F5FB;
+    height: 20px;
+}
+
+.loginnow_btn {
+    margin: 20px;
+    border-top: 16px;
+    text-align: center;
+}
+
+.loginnow_btn a {
+    cursor:pointer;
+}
+
+.btn{
+    margin-right: 12px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #C4C4C4;
+    color: aliceblue;
+    height: 35px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    margin: 6px;
+    padding: 0;
+    cursor:pointer;
+}
+
+.image p {
+    margin: 0;
+}
+
+
+

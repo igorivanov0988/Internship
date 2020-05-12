@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.main_screen {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin: 50px;
+    background-color: #E0E0E0;
+}
+/*---------- P ----------*/
+.text_linc_screen {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.text_linc_screen p {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.text_one {
+    background-color: #FFFFFF;
+    height: 35px;
+    width: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.text_two {
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 65%;
+    margin-top: 5px;
+}
+
+/*---------- Profiles ----------*/
+
+.profiles {
+    background-color: #61dafb;
+    height: 150px;
+}
+
+/*---------- Choice social ----------*/
+
+.choice_social p {
+    margin-left: 15px;
+}
+
+.choice_social_buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.choice_social_buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 45px;
+    width: 125px;
+    cursor:pointer;
+    outline: none;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.btn_post_window {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+.footer_linc {
+    margin: 30px;
+}

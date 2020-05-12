@@ -1,0 +1,8 @@
+.main_Agenda {
+    display: flex;
+    flex-direction: column;
+    background-color: #E0E0E0;
+    height: 100vh;
+    width: 500px;
+
+}

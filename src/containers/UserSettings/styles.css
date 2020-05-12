@@ -1,0 +1,29 @@
+.main_Settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.user_Settings {
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.avatar_picture {
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.menu_button {
+    border-radius: 5px;
+    outline: none;
+    cursor:pointer;
+}
+
+.menu_list {
+    border-radius: 5px;
+    outline: none;
+}

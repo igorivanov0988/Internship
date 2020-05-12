@@ -1,0 +1,47 @@
+
+/*---------- Navigation ----------*/
+
+.navigation {
+    background-color: #E0E0E0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics {
+    color: aliceblue;
+}
+
+/*---------- List ----------*/
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.navigation_btn {
+    background-color: #99A8B9;
+    margin-top: 20px;
+    color: aliceblue;
+    outline: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navigation_btn:focus {
+    background-color: #007AFF;
+}
+
+.navigation_btn:hover {
+    background-color: #00AFFF;
+}
+.navigation_btn_active {
+    background-color: #007AFF;
+}
+
+

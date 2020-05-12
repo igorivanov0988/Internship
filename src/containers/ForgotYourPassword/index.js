@@ -1,0 +1,2 @@
+import ForgotYourPasswordPage from './ForgotYourPasswordPage'
+export default ForgotYourPasswordPage

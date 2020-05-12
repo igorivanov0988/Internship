@@ -1,0 +1,31 @@
+.forgotPassword {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-top: 265px;
+}
+
+.email_password {
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-radius: 4px;
+    outline: none;
+    width: 255px;
+    background-color: #F5F5FB;
+    height: 20px;
+}
+
+.btn_fogot{
+    margin: 15px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #C4C4C4;
+    color: aliceblue;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    cursor:pointer;
+}

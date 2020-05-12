@@ -1,0 +1,67 @@
+.forms {
+
+}
+
+.log_in{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-top: 50px;
+    cursor:pointer;
+}
+
+.headerlink {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.signForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 150px;
+}
+
+.sign {
+    margin-right: 165px;
+}
+
+.name_email_password {
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-radius: 4px;
+    outline: none;
+    width: 255px;
+    background-color: #F5F5FB;
+    height: 20px;
+}
+
+.sign_up_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-top: 16px;
+    text-align: center;
+}
+
+.sign_up_btn img {
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+.btn_sign_page{
+    margin-right: 42px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #C4C4C4;
+    color: aliceblue;
+    height: 35px;
+    font-size: 15px;
+    cursor:pointer;
+}

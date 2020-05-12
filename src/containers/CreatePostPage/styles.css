@@ -1,0 +1,84 @@
+.main_Post_Page {
+    display: flex;
+    flex-direction: row;
+    /*height: 100vh;*/
+}
+
+/*---------- Post window ----------*/
+
+
+.main_screen_Post_Page {
+    flex: 1;
+    flex-direction: column;
+}
+
+.header_linc {
+    margin: 60px;
+    cursor:pointer;
+}
+
+.header_linc a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+
+
+.create_post_window {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin: 50px;
+    background-color: #E0E0E0;
+}
+
+.input_post_page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.create_post_input {
+    height: 150px;
+    color: red;
+}
+
+/*---------- Input ----------*/
+
+.create_post_window input {
+    margin: 15px;
+    height: 25px;
+}
+
+#headline {
+    width: 160px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#post_text {
+    margin-top: 5px;
+}
+
+/*---------- Button ----------*/
+
+.btn_post_window {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_post_window button {
+    height: 25px;
+    width: 90px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+.btn_post_window button:last-child {
+    margin-left: 555px;
+}
+
