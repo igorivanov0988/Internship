@@ -12,7 +12,7 @@ import './styles.css';
 
 class UserSettings extends Component {
 
-    Log_Out = () => {
+    Logout = () => {
         this.props.Log_Out();
         this.props.history.push("/Login");
 
@@ -37,7 +37,7 @@ class UserSettings extends Component {
                         </MenuButton>
                         <MenuList className='menu_list'>
                             <MenuItem onClick={() => alert("Settings")}>Settings</MenuItem>
-                            <MenuItem onClick={this.Log_Out}>Log Out</MenuItem>
+                            <MenuItem onClick={this.Logout}>Log Out</MenuItem>
                             {/*<MenuLink as="a" href="https://reacttraining.com/workshops/">Attend a Workshop</MenuLink>*/}
                         </MenuList>
                     </Menu>
